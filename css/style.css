@@ -1,0 +1,38 @@
+body {
+    background-image: url("../assets/confectionary.png");
+}
+
+.card-label {
+    background-color: navy; 
+    color: #fffff0 
+;
+    font-size: 20px;
+    text-indent: 30px;
+}
+
+.jumbotron {
+    font-size: 36px;
+    background-color: navy; 
+    color: #fffff0 ;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.table {
+    font-size: 13px
+}
+
+form {
+    font-size: 13px
+}
+
+.form-control {
+    font-size: 13px
+}
+
+label {
+    text-indent: 10px;
+}
+
