@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- The reset css. -->
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+  <title>Rock Paper Scissors ONLINE</title>
+  <!-- Added a link to Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <!-- Then my style sheet. -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">      
+</head>
+
+<body>
+
+  <!-- Set up Firebase, jQuery, and game.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    $(document).ready(function() {})</script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBi54JxMS-eRAxmYAZeKgGUWnsaCoSC_m0",
+      authDomain: "rps-redux.firebaseapp.com",
+      databaseURL: "https://rps-redux.firebaseio.com",
+      projectId: "rps-redux",
+      storageBucket: "rps-redux.appspot.com",
+      messagingSenderId: "728843807505"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="javascript/app.js"></script>
+  </body>
+  </html>
